@@ -3,6 +3,7 @@ import Hello from './components/Hello.jsx';
 import {Flip,Flip2} from './components/Flip.jsx';
 import Targyak from './components/Targyak.jsx';
 import Szamlalo from "./components/Szamlalo.jsx";
+import Urlap from "./components/Urlap.jsx"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hello />
       <Targyak />
       <Szamlalo/>
+      <Urlap/>
     </>
   )
 }
